@@ -1,0 +1,79 @@
+
+time taken for fillpolicy 87/87
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" ;
+
+number of attribute :-3
+policy size 1560
+======================================================================
+time taken for fillpolicy 176/176
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" +
+				" sn:student2 cn:student2 uid:student2 3of3 2of2";
+number of attribute :-6
+policy size 3120
+=========================================================================
+
+time taken for fillpolicy 273/274
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" +
+				" sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 3of3 2of3";
+
+number of attribute :-9
+policy size 4680
+=======================================================================
+time taken for fillpolicy 358/362
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" +
+				" sn:student2 cn:student2 uid:student2 3of3 1of2 " +
+				"sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 3of3 1of2 2of2";
+
+number of attribute :-12
+policy size 6240
+======================================================================
+time taken for fillpolicy 417/428
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" +
+				" sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 2of2";
+
+number of attribute :-14
+policy size 7280
+===================================================================
+time taken for fillpolicy 521/544
+
+	static String student_policy = "sn:student2 cn:student2 uid:student2 3of3" +
+				" sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 2of2";
+
+number of attribute :-18
+policy size 9360
+====================================================================
+time taken for fillpolicy 557/570
+
+
+		static String student_policy = "sn:student2 cn:student2 uid:student2 ou:idp 2of4" +
+				" sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 2of2";
+
+number of attribute :-19
+policy size 9880	
+=======================================================================
+time taken for fillpolicy 787/823
+
+static String student_policy = "sn:student2 cn:student2 uid:student2 ou:idp 2of4 " +
+				"sn:student2 cn:student2 uid:student2 ou:idp 2of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 ou:idp 2of4" +
+				" sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of3 " +
+				"sn:student2 cn:student2 uid:student2 3of3 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 " +
+				"sn:student2 cn:student2 uid:student2 userPassword:student2 3of4 1of2 2of2";
+policy size 14040
+number of attribute :-27
